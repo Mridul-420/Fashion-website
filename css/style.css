@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#nav-bar{
+    background-color: #96928E;
+}
+.nav-link{
+    color: #000000;
+    font-weight: 600;
+}
+.navbar-brand{
+    color: #000000;
+    font-weight: 800;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-caption {
+    position: absolute;
+    left: -1%;
+    top: 20%;
+    transform: translateY(10%);
+}
+.carousel-caption h1{
+    color: #000000;
+    font-size: 70px;
+    font-weight: 400;
+}
+.carousel-caption p{
+    color: black;
+    font-weight: 600;
+}
+.btn{
+    background-color: red;
+    padding: 10px 25px;
+    color: white;
+    outline:none;
+    border: none;
+    text-transform: capitalize;
+    transition: 0.4s linear;
+}
+.btn:hover{
+    background-color: white;
+    color: tomato;
+}
+
+
+
+
+
