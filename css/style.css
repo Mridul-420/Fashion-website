@@ -38,7 +38,7 @@
     color: white;
     outline:none;
     border: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     transition: 0.4s linear;
 }
 .btn:hover{
