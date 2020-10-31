@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
+/*--- nav section ---*/
 #nav-bar{
     background-color: #96928E;
 }
@@ -14,8 +15,11 @@
     color: #000000;
     font-weight: 800;
 }
+/*--- nav section ---*/
+
+/*--- banner section ---*/
 .carousel-item{
-    height: 100vh;
+    height: 500px;
 }
 .carousel-caption {
     position: absolute;
@@ -45,8 +49,34 @@
     background-color: white;
     color: tomato;
 }
+/*--- banner section ---*/
 
+/*--- sub menu section ---*/
+#sub-menu{
+    background-color: rgb(70, 63,63);
+    padding: 40px;
+    color: #fff;
+}
+#sub-menu .btn1{
+    height: 50px;
+    width: 50%;
+    color: white;
+    background-color: yellowgreen;
+    outline: none;
+    border: none;
+    margin-left: -2pxs;
+}
+#sub-menu input{
+    padding: 10px;
+    width: 50%;
+    height: 51px;
+    color: black;
+    outline: none;
+}
+.sub{
 
+}
+/*--- sub menu section ---*/
 
 
 
