@@ -19,7 +19,7 @@
 
 /*--- banner section ---*/
 .carousel-item{
-    height: 500px;
+    height: 100%;
 }
 .carousel-caption {
     position: absolute;
@@ -73,10 +73,26 @@
     color: black;
     outline: none;
 }
-.sub{
 
-}
 /*--- sub menu section ---*/
 
-
-
+/*--- collection section ---*/
+.card {
+    border: none;
+}
+.card-img-top {
+    border-radius: 0px;
+}
+.card-body {
+    padding: 10px 0px;
+}
+.title{
+    padding: 50px;
+}
+#collection span{
+    color: yellowgreen;
+    font-weight: 800;
+    padding-left: 5px;
+    font-size: 20px;
+}
+/*--- collection section ---*/
