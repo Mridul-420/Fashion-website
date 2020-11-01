@@ -73,7 +73,10 @@
     color: black;
     outline: none;
 }
-
+#sub-menu span .fa{
+    color: yellowgreen;
+    font-size: 30px;
+}
 /*--- sub menu section ---*/
 
 /*--- collection section ---*/
@@ -89,9 +92,9 @@
 .title{
     padding: 50px;
 }
-#collection span{
+.card-text span{
     color: yellowgreen;
-    font-weight: 800;
+    font-weight: 700;
     padding-left: 5px;
     font-size: 20px;
 }
