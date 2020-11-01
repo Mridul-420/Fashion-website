@@ -96,3 +96,55 @@
     font-size: 20px;
 }
 /*--- collection section ---*/
+
+/*--- parallex section ---*/
+.parallex{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/banner1.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+}
+.parallex h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+.parallex p{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.btn1{
+    padding: 8px 25px;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white !important;
+    outline: none;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.btn1:hover{
+    background: white;
+    color: yellowgreen;
+    outline: none;
+    border: none;
+}
+.btn2{
+    padding: 8px 25px;
+    background: white;
+    color: yellowgreen;
+    border-radius: 3px;
+    border: 2px solid white !important;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.btn2:hover{
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+/*--- parallex section ---*/
