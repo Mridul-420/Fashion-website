@@ -151,3 +151,9 @@
     border: none;
 }
 /*--- parallex section ---*/
+
+
+.card-title:hover{
+    color: yellowgreen;
+    transition: 0.4s;
+}
